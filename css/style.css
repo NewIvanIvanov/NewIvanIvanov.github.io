@@ -84,6 +84,7 @@ body {
 	height: 225px;
 	background-color: #eee;
 	background-size: cover;
+	background-position: center;
 }
 
 .site_description {
@@ -102,5 +103,9 @@ body {
 
 .magazine-img {
 	background-image: url("../img/magazine.jpg");
+}
+
+.landX-img {
+	background-image: url("../img/landX.jpg");
 }
 
