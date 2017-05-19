@@ -1,20 +1,20 @@
 @font-face {
-	font-family: 'OpenSans-Bold';
+	font-family: "OpenSans-Bold";
 	src: url("../fonts/OpenSans-Bold.ttf");
 }
 
 @font-face {
-	font-family: 'OpenSans-Italic';
+	font-family: "OpenSans-Italic";
 	src: url("../fonts/OpenSans-Italic.ttf");
 }
 
 @font-face {
-	font-family: 'OpenSans-Light';
+	font-family: "OpenSans-Light";
 	src: url("../fonts/OpenSans-Light.ttf");
 }
 
 @font-face {
-	font-family: 'OpenSans-Regular';
+	font-family: "OpenSans-Regular";
 	src: url("../fonts/OpenSans-Regular.ttf");
 }
 
@@ -29,12 +29,13 @@ body {
 	height: 100px;
 	text-align: center;
 	background-color: #27272b;
+	background-image: url("../img/potrfolioBg.jpg");
 }
 
 .about::after {
 	display: inline-block;
 	height: 100%;
-	content: '';
+	content: "";
 	vertical-align: middle;
 }
 
@@ -51,9 +52,9 @@ body {
 
 .portfolio {
 	display: block;
-	height: 600px;
-	background-image: url("../img/potrfolioBg.jpg");
-	background-size: cover;
+	min-height: 1200px;
+	background-image: url("../img/potrfolioBg2.jpg");
+	background-position: center;
 }
 
 .sites {
@@ -70,12 +71,9 @@ body {
 	width: 300px;
 	min-height: 220px;
 	margin-right: 10px;
+	margin-bottom: 20px;
 	padding: 5px;
 	background-color: #000;
-}
-
-.site:last-of-type {
-	margin-right: 0;
 }
 
 .site_link {
@@ -107,5 +105,9 @@ body {
 
 .landX-img {
 	background-image: url("../img/landX.jpg");
+}
+
+.gigapps-img {
+	background-image: url("../img/gigapps.jpg");
 }
 
